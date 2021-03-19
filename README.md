@@ -1,10 +1,10 @@
 # Intro to Rails
 
 You can either fork & clone this repo down and run:    
-    `bundle install` 
-    `rails db:migrate`
-    `rails db:seed`
-    `rails s`
+* `bundle install` 
+* `rails db:migrate`
+* `rails db:seed`
+* `rails s`
 
 ...or follow the allong with the lecture which will have you recreate it yourself
 
@@ -47,7 +47,7 @@ Cyclist -< Ride >- Trail
 * `rails new` skip flags: `--skip-javascript --skip-active-storage --skip-action-mailer --skip-action-mailbox`
 
 * Request response cylce demo:
-    1. A route is defined in your routes file where you tell ruby what code to run when that route is hit
-    2. When a browser hits that route, the coresponding controller method fires off
-    3. When that controller method fires off, it follows the rules set in the model, and send that data to its corresponding view
-    4. Back in the browser, the view can then display data from the data base by way of the controller.
+1. A route is defined in your routes file where you tell ruby what code to run when that route is hit
+2. When a browser hits that route, the coresponding controller method fires off
+3. When that controller method fires off, it follows the rules set in the model, and send that data to its corresponding view
+4. Back in the browser, the view can then display data from the data base by way of the controller.
