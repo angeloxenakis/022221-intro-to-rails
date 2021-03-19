@@ -1,0 +1,13 @@
+<h1><%= @cyclist.name %></h1>
+<hr>
+
+<h2>All my rides:</h2>
+<% @cyclist.rides.each do |ride| %>
+    <li><%= ride.date %></li>
+<% end %>
+
+<h2>All my trails:</h2>
+<% @cyclist.trails.each do |trail| %>
+    <li><%= trail.name %></li>
+<% end %>
+

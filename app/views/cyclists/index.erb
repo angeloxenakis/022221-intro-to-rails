@@ -1,0 +1,8 @@
+<h1>All Cyclists</h1>
+<hr>
+
+<% @cyclists.each do |cyclist| %>
+
+    <li><%= link_to cyclist.name, cyclist %></li>
+    
+<% end %>
